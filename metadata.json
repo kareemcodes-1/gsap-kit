@@ -1,0 +1,18 @@
+[
+  {
+    "name": "split-text",
+    "description": "A scroll-triggered text splitting animation using GSAP SplitText.",
+    "preview": "https://example.com/split-text.gif",
+    "file": "SplitText.tsx",
+    "dependencies":["gsap", "@gsap/react"]
+  },
+
+  {
+    "name": "split-lines",
+    "description": "A scroll-triggered line-by-line reveal animation using GSAP SplitText with overflow masking.",
+    "preview": "https://example.com/split-lines.gif",
+    "file": "SplitLines.tsx",
+    "dependencies": ["gsap", "@gsap/react"]
+  }
+
+]
