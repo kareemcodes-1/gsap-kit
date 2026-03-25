@@ -4,15 +4,34 @@
     "description": "A scroll-triggered text splitting animation using GSAP SplitText.",
     "preview": "https://example.com/split-text.gif",
     "file": "SplitText.tsx",
-    "dependencies":["gsap", "@gsap/react"]
+    "dependencies": ["gsap", "@gsap/react"]
   },
-
   {
     "name": "split-lines",
     "description": "A scroll-triggered line-by-line reveal animation using GSAP SplitText with overflow masking.",
     "preview": "https://example.com/split-lines.gif",
     "file": "SplitLines.tsx",
     "dependencies": ["gsap", "@gsap/react"]
+  },
+  {
+    "name": "text-opacity",
+    "description": "A scroll-scrubbed letter-by-letter opacity animation using GSAP ScrollTrigger.",
+    "preview": "https://example.com/text-opacity.gif",
+    "file": "TextOpacity.tsx",
+    "dependencies": ["gsap"]
+  },
+  {
+    "name": "flip-text",
+    "description": "A hover-triggered letter flip animation using GSAP where letters roll up and are replaced from below.",
+    "preview": "https://example.com/flip-text.gif",
+    "file": "FlipText.tsx",
+    "dependencies": ["gsap", "@gsap/react"]
+  },
+  {
+    "name": "flip-loader",
+    "description": "A looping letter flip animation using GSAP timeline, ideal for loaders and marquees.",
+    "preview": "https://example.com/flip-loader.gif",
+    "file": "FlipLoader.tsx",
+    "dependencies": ["gsap", "@gsap/react"]
   }
-
 ]
